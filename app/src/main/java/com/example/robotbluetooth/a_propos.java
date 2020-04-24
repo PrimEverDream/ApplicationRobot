@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class a_propos extends AppCompatActivity {
-String noms[];
+    String[] noms;
 int photos[];
 ImageButton buttonImage6;
 ImageButton buttonImage7;
@@ -18,8 +18,8 @@ TextView textView7;
 int i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        noms = new String[]{"Alan","Raphael","jack"};
-        photos = new int[]{R.drawable.fleche_bas,R.drawable.fleche_haut, R.drawable.sambot};
+        noms = new String[]{"Alan", "Raphael", "Jacques"};
+        photos = new int[]{R.drawable.alanandroid, R.drawable.raphaelandroid, R.drawable.jacquesandroid};
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_a_propos);
         buttonImage6 = findViewById(R.id.imageButton6);
