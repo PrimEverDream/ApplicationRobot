@@ -1,0 +1,2 @@
+rootProject.name='Robot Bluetooth'
+include ':app'
